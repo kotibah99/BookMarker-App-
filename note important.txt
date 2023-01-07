@@ -1,0 +1,6 @@
+   //local Storge test : 
+   
+    localStorage.setItem('test', 'hello world');
+    console.log(localStorage.getItem('test'));
+    localStorage.removeItem('test');
+    console.log(localStorage.getItem('test'));
